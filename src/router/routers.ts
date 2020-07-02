@@ -3,7 +3,7 @@ import Home from "../views/Home.vue";
 
 const router: RouteConfig[] = [
   {
-    path: "",
+    path: "*",
     name: "home",
     component: Home
   }
